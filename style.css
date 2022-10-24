@@ -297,12 +297,7 @@ body.dark .switch::before{
     color: var(--text-color);
     padding: 12px 60px;
 }
-table, th, td {
-    border: 0px;
-    border-collapse: collapse;
-    padding: 12px 60px;
-    width: 600px;
-  }
+
 .sidebar.close ~ .home{
     left: 78px;
     height: 100vh;
@@ -422,3 +417,4 @@ body.dark .home .text{
 .shadow.dark:nth-child(5) {
     background-color: rgba(252, 242, 241, 0.5);
 }
+
