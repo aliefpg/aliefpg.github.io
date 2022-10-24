@@ -19,7 +19,7 @@
         <header>
 
                 <div class="text logo-text">
-                    <span class="name">ALIEF PRIMA GANI</span>
+                    <span class="name">Alief Prima Gani</span>
                     <span class="profession">Web developer</span>
                 </div>
             </div>
@@ -81,44 +81,58 @@
                         <span class="switch"></span>
                     </div>
                 </li>
-                
             </div>
         </div>
 
-    </nav>
-
-    <section class="home">
+    </nav>    <section class="home">
         <div class="text">Dashboard Sidebar</div>
+        <table>
+            <tr>
+              <td>Firstname adabdjb adhaidhaidiadniandiandinaidnwi uiwqdnqdqidiqdnidq iqidnqidnqiwdni</td>
+            </tr>
+        </table>
     </section>
-
+    <div class="container">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="shadow"></div>
+        <div class="shadow"></div>
+        <div class="shadow"></div>
+    </div>
     <script>
-        const body = document.querySelector('body'),
-      sidebar = body.querySelector('nav'),
-      menu = body.querySelector(".bx-menu "),
-      searchBtn = body.querySelector(".search-box"),
-      modeSwitch = body.querySelector(".toggle-switch"),
-      modeText = body.querySelector(".mode-text");
-
-
-menu.addEventListener("click" , () =>{
+    const body = document.querySelector('body');
+    sidebar = body.querySelector('nav'),
+    menu = body.querySelector(".bx-menu "),
+    searchBtn = body.querySelector(".search-box"),
+    modeSwitch = body.querySelector(".toggle-switch"),
+    modeText = body.querySelector(".mode-text"),
+    circle = body.querySelectorAll(".circle");
+    shadow = body.querySelectorAll(".shadow");
+      
+    menu.addEventListener("click" , () =>{
     sidebar.classList.toggle("close");
-})
+    })
 
-searchBtn.addEventListener("click" , () =>{
-    sidebar.classList.remove("close");
-})
+    searchBtn.addEventListener("click" , () =>{
+        sidebar.classList.remove("close");
+    })
 
-modeSwitch.addEventListener("click" , () =>{
-    body.classList.toggle("dark");
-    
-    if(body.classList.contains("dark")){
-        modeText.innerText = "Light mode";
-    }else{
-        modeText.innerText = "Dark mode";
+    modeSwitch.addEventListener("click" , () =>{
+        body.classList.toggle("dark");
+        // Dark Mode Bouncing Circles
+        for (var i = 0, l = circle.length; i < l; i++) {
+            circle[i].classList.toggle("dark");
+            shadow[i].classList.toggle("dark");
+        };
+
+        if(body.classList.contains("dark")){
+            modeText.innerText = "Light mode";
+        }else{
+            modeText.innerText = "Dark mode";
         
-    }
-});
+        }
+    });
     </script>
-
 </body>
 </html>
