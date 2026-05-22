@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alief Prima Gani</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300&family=Geist:wght@300;400;500&family=Geist+Mono:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo">Alief Prima Gani</div>
+  <ul class="nav-links">
+    <li><a href="#about">about</a></li>
+    <li><a href="#experience">experience</a></li>
+    <li><a href="#projects">projects</a></li>
+    <li><a href="#contact">contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<div class="hero" id="top">
+  <div class="hero-eyebrow">Data Engineer & Developer</div>
+  <h1>Building things<br>that <em>matter</em>.</h1>
+  <p class="hero-desc">
+    Fresh graduate in <strong>Informatics Engineering (GPA 3.53)</strong> with hands-on experience 
+    building end-to-end data pipelines and cloud systems at 
+    <strong>PT Garuda Indonesia</strong>.
+  </p>
+  <div class="hero-ctas">
+    <a href="#projects" class="btn-fill">See my work</a>
+    <a href="#contact" class="btn-ghost">Get in touch →</a>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- ABOUT -->
+<section class="about-strip" id="about">
+  <div class="about-inner">
+    <div>
+      <p class="sec-label">About</p>
+      <h2 class="about-heading">Data, cloud,<br>& full-stack.</h2>
+      <p class="about-body">
+        I build reliable data systems — from ETL pipelines to AI-powered tools — 
+        and ship full-stack products end-to-end. Based in Tangerang, Indonesia.
+      </p>
+      <p class="about-body" style="margin-top:16px;">
+        TOEFL ITP 586 · GPA 3.53/4.00 · Top 10% Bangkit Academy cohort.
+      </p>
+    </div>
+    <div class="stat-grid reveal">
+      <div class="stat-cell">
+        <div class="stat-num">15+</div>
+        <div class="stat-label">Gov. data requests fulfilled</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-num">2.5m</div>
+        <div class="stat-label">Pipeline refresh cycle</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-num">100+</div>
+        <div class="stat-label">Cloud servers audited</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-num">85%</div>
+        <div class="stat-label">ML accuracy (CareBYMom)</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <p class="sec-label">Skills & Tools</p>
+  <div class="skills-wrap reveal">
+    <span class="skill-pill highlight">Apache NiFi</span>
+    <span class="skill-pill highlight">Python</span>
+    <span class="skill-pill highlight">PostgreSQL</span>
+    <span class="skill-pill highlight">Power BI</span>
+    <span class="skill-pill highlight">ETL Pipeline</span>
+    <span class="skill-pill">Alibaba Cloud</span>
+    <span class="skill-pill">Google Cloud (GCP)</span>
+    <span class="skill-pill">REST API</span>
+    <span class="skill-pill">PHP</span>
+    <span class="skill-pill">JavaScript</span>
+    <span class="skill-pill">Kotlin</span>
+    <span class="skill-pill">C++</span>
+    <span class="skill-pill">DBeaver</span>
+    <span class="skill-pill">Git & GitHub</span>
+    <span class="skill-pill">Dify / LLM</span>
+    <span class="skill-pill">TensorFlow Lite</span>
+    <span class="skill-pill">SharePoint</span>
+    <span class="skill-pill">MySQL</span>
+    <span class="skill-pill">Dewaweb</span>
+    <span class="skill-pill">NodeMCU ESP8266</span>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <p class="sec-label">Experience</p>
+  <div class="exp-list">
+
+    <div class="exp-row open" onclick="toggleExp(this)">
+      <div class="exp-left">
+        <div class="exp-period">Nov 2025 – May 2026</div>
+        <div class="exp-type">Full-time Internship</div>
+      </div>
+      <div class="exp-row-inner">
+        <div class="exp-right">
+          <div class="exp-company">PT Garuda Indonesia</div>
+          <div class="exp-role-title">IT Digital Transformation — Data & Cloud · Tangerang</div>
+          <div class="exp-bullets open">
+            <ul>
+              <li>Built end-to-end ETL pipeline (Apache NiFi + Python) syncing SharePoint aviation data to PostgreSQL with 2.5-min auto-refresh, powering real-time Power BI dashboards.</li>
+              <li>Restored a broken BPK audit pipeline, fixed transformation logic, and exposed REST API endpoints — pipeline has run successfully in every monthly audit cycle since.</li>
+              <li>Built an AI-powered Knowledge Management System using Dify (LLM orchestration), indexing 50+ mixed-format assets for an operations division.</li>
+              <li>Audited 100+ Alibaba Cloud servers across 3 divisions, identified 5 idle instances costing ~$954/month and recommended ~$11,400/year in potential savings.</li>
+              <li>Fulfilled 15+ official data requests from regional government and law enforcement with 100% compliance and zero security incidents.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="exp-arrow">+</div>
+      </div>
+    </div>
+
+    <div class="exp-row" onclick="toggleExp(this)">
+      <div class="exp-left">
+        <div class="exp-period">Jul – Oct 2025</div>
+        <div class="exp-type">Part-time · Remote</div>
+      </div>
+      <div class="exp-row-inner">
+        <div class="exp-right">
+          <div class="exp-company">STIKOM CKI</div>
+          <div class="exp-role-title">Full Stack Developer · Jakarta</div>
+          <div class="exp-bullets">
+            <ul>
+              <li>Led migration of a financial management system from a licensed third-party to Dewaweb cloud infrastructure, reducing vendor dependency.</li>
+              <li>Restructured 6 database tables and resolved relational inconsistencies from incorrect table-to-feature mappings.</li>
+              <li>Fixed a critical billing module bug disrupting invoice delivery and developed 3 new modules from requirements to deployment.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="exp-arrow">+</div>
+      </div>
+    </div>
+
+    <div class="exp-row" onclick="toggleExp(this)">
+      <div class="exp-left">
+        <div class="exp-period">Jul 2023 – Jan 2024</div>
+        <div class="exp-type">Program · Remote</div>
+      </div>
+      <div class="exp-row-inner">
+        <div class="exp-right">
+          <div class="exp-company">Bangkit Academy</div>
+          <div class="exp-role-title">Google Cloud Computing Cohort · Bandung</div>
+          <div class="exp-bullets">
+            <ul>
+              <li>Achieved top 10% among 4,520 participants, completed 25+ hands-on GCP projects with 50+ mentorship hours.</li>
+              <li>Led 5-person team building CareBYMom — a maternal health app with 85% stunting risk detection accuracy.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="exp-arrow">+</div>
+      </div>
+    </div>
+
+    <div class="exp-row" onclick="toggleExp(this)">
+      <div class="exp-left">
+        <div class="exp-period">Oct 2024 – Jul 2025</div>
+        <div class="exp-type">Org · Jakarta</div>
+      </div>
+      <div class="exp-row-inner">
+        <div class="exp-right">
+          <div class="exp-company">BEM STIKOM CKI</div>
+          <div class="exp-role-title">Lead Web Developer</div>
+          <div class="exp-bullets">
+            <ul>
+              <li>Built the official BEM website from scratch in PHP serving 500+ students with 98% uptime.</li>
+              <li>Executed 25+ content updates maintaining 98% accuracy, boosting student engagement by 35%.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="exp-arrow">+</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects-section" id="projects">
+  <p class="sec-label">Projects</p>
+  <div class="projects-grid reveal">
+
+    <div class="proj-card">
+      <div class="proj-year">2025</div>
+      <div class="proj-name">ETL Pipeline — Garuda Indonesia</div>
+      <div class="proj-desc">End-to-end data pipeline syncing SharePoint aviation data into PostgreSQL with automated refresh and real-time dashboards.</div>
+      <div class="proj-tags">
+        <span class="ptag">Apache NiFi</span><span class="ptag">Python</span><span class="ptag">PostgreSQL</span><span class="ptag">Power BI</span>
+      </div>
+    </div>
+
+    <div class="proj-card">
+      <div class="proj-year">2025</div>
+      <div class="proj-name">AI Knowledge Management System</div>
+      <div class="proj-desc">LLM-powered KMS using Dify orchestration, indexing 50+ mixed-format documents, images, and videos for an operations division.</div>
+      <div class="proj-tags">
+        <span class="ptag">Dify</span><span class="ptag">LLM</span><span class="ptag">RAG</span>
+      </div>
+    </div>
+
+    <div class="proj-card">
+      <div class="proj-year">2025</div>
+      <div class="proj-name">BeautyCare</div>
+      <div class="proj-desc">End-to-end ML pipeline for real-time facial skin type classification with on-device TensorFlow Lite and Android CameraX integration.</div>
+      <div class="proj-tags">
+        <span class="ptag">TFLite</span><span class="ptag">Kotlin</span><span class="ptag">CameraX</span><span class="ptag">ML</span>
+      </div>
+    </div>
+
+    <div class="proj-card">
+      <div class="proj-year">2025</div>
+      <div class="proj-name">Telegram Finance Bot</div>
+      <div class="proj-desc">Multi-user finance bot with transaction recording, real-time balance tracking, and automated PDF report generation via Google Apps Script.</div>
+      <div class="proj-tags">
+        <span class="ptag">Apps Script</span><span class="ptag">Telegram API</span><span class="ptag">PDF</span>
+      </div>
+    </div>
+
+    <div class="proj-card">
+      <div class="proj-year">2024</div>
+      <div class="proj-name">CareBYMom</div>
+      <div class="proj-desc">Maternal health Android app with 85% accuracy in stunting risk detection. Capstone project for Bangkit Academy addressing Indonesia's 4.48M at-risk children.</div>
+      <div class="proj-tags">
+        <span class="ptag">GCP</span><span class="ptag">ML</span><span class="ptag">Android</span>
+      </div>
+    </div>
+
+    <div class="proj-card">
+      <div class="proj-year">2024</div>
+      <div class="proj-name">WiFi Robot Car</div>
+      <div class="proj-desc">Dual-mode robot with WiFi manual control and autonomous line-following using NodeMCU ESP8266 and C++.</div>
+      <div class="proj-tags">
+        <span class="ptag">NodeMCU</span><span class="ptag">C++</span><span class="ptag">IoT</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-inner">
+    <div>
+      <p class="sec-label">Contact</p>
+      <h2 class="contact-heading">Let's work<br><em>together.</em></h2>
+      <p class="contact-note">Open to full-time roles, freelance projects, or just a good conversation about data engineering, cloud infrastructure, or anything tech.</p>
+      <a href="mailto:aliefprimagani73@gmail.com" class="btn-fill">Send an email</a>
+    </div>
+    <div class="contact-items reveal">
+      <a href="mailto:aliefprimagani73@gmail.com" class="contact-item">
+        <div class="ci-left">
+          <div class="ci-icon">@</div>
+          <div>
+            <div class="ci-label">Email</div>
+            <div class="ci-value">aliefprimagani73@gmail.com</div>
+          </div>
+        </div>
+        <div class="ci-arrow">→</div>
+      </a>
+      <a href="https://linkedin.com/in/alief-prima-gani/" target="_blank" class="contact-item">
+        <div class="ci-left">
+          <div class="ci-icon">in</div>
+          <div>
+            <div class="ci-label">LinkedIn</div>
+            <div class="ci-value">alief-prima-gani</div>
+          </div>
+        </div>
+        <div class="ci-arrow">→</div>
+      </a>
+      <a href="https://github.com/aliefpg" target="_blank" class="contact-item">
+        <div class="ci-left">
+          <div class="ci-icon">gh</div>
+          <div>
+            <div class="ci-label">GitHub</div>
+            <div class="ci-value">github.com/aliefpg</div>
+          </div>
+        </div>
+        <div class="ci-arrow">→</div>
+      </a>
+      <a href="tel:+6289604392260" class="contact-item">
+        <div class="ci-left">
+          <div class="ci-icon">☎</div>
+          <div>
+            <div class="ci-label">Phone</div>
+            <div class="ci-value">+62 896 0439 2260</div>
+          </div>
+        </div>
+        <div class="ci-arrow">→</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Alief Prima Gani</p>
+  <p>index.html · deploy to GitHub Pages</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
